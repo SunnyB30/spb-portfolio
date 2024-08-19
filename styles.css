@@ -1,0 +1,31 @@
+nav a {
+    color: black;
+    padding-right: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 14px;
+    }
+}
+body {
+    display: flex; 
+    flex-direction: column; 
+    line-height: 1.4;
+    min-height: 100vh;
+    font-family: monospace;
+    font-size: 16px;
+    margin: 0;
+    background-color: #B56357;
+    color: #EAE3EA; 
+}
+
+.container {
+    max-width: 95%;
+    margin: 0 auto 0 auto; 
+}
+
+h1 {
+    color: #A7B3A5; 
+}
