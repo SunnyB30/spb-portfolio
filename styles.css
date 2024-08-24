@@ -9,6 +9,16 @@ nav a {
         font-size: 14px;
     }
 }
+.container {
+    max-width: 95%;
+    margin: 0 auto 0 auto; 
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        max-width: 700px;
+    }
+}
 body {
     display: flex; 
     flex-direction: column; 
@@ -21,9 +31,11 @@ body {
     color: #EAE3EA; 
 }
 
-.container {
-    max-width: 95%;
-    margin: 0 auto 0 auto; 
+
+
+.content-body {
+    flex-grow: 1;
+    margin-top: 25px;
 }
 
 h1 {
